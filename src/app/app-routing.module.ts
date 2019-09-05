@@ -1,8 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { SelectedCardComponent } from './selected-card/selected-card.component';
+import { CardListComponent } from './card-list/card-list.component';
+import { SettingsComponent } from './settings/settings.component';
 
-
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'cardList', component: CardListComponent },
+  { path: 'settings', component: SettingsComponent },
+  { path: '', redirectTo: '/cardList', pathMatch: 'full' },
+  { path: 'card/:text', component: SelectedCardComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
