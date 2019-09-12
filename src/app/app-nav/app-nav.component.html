@@ -1,7 +1,5 @@
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" fixedInViewport
-      [attr.role]="dialog"
-      [mode]="over"
       [opened]="false">
     <mat-nav-list>
       <a mat-list-item href="settings"><mat-icon>settings</mat-icon>&nbsp;&nbsp;Settings</a>
@@ -21,6 +19,10 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>Cards Against Agility</span>
+      <span style="flex: 1 1 auto"></span>
+      <button onclick="installPwa()">
+        Install
+      </button>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
+import { PwaService } from '../pwa.service';
 
 @Component({
   selector: 'app-app-nav',
@@ -16,6 +17,10 @@ export class AppNavComponent {
       shareReplay()
     );
 
-  constructor(private breakpointObserver: BreakpointObserver) {}
+    installPwa(): void {
+      this.pwaService.promptEvent.prompt();
+    }
+
+  constructor(private breakpointObserver: BreakpointObserver, private pwaService: PwaService) {}
 
 }
