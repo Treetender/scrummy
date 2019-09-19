@@ -5,9 +5,9 @@ import { CardListComponent } from './card-list/card-list.component';
 import { SettingsComponent } from './settings/settings.component';
 
 const routes: Routes = [
-  { path: 'cardList', component: CardListComponent },
+  { path: 'cardlist', component: CardListComponent },
   { path: 'settings', component: SettingsComponent },
-  { path: '', redirectTo: '/cardList', pathMatch: 'full' },
+  { path: '', redirectTo: '/cardlist', pathMatch: 'full' },
   { path: 'card/:text', component: SelectedCardComponent }
 ];
 

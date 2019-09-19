@@ -1,28 +1,23 @@
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport
-      [opened]="false">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport [opened]="false">
     <mat-nav-list>
-      <a mat-list-item href="settings"><mat-icon>settings</mat-icon>&nbsp;&nbsp;Settings</a>
+      <a mat-list-item href="settings">
+        <mat-icon>settings</mat-icon>&nbsp;&nbsp;Settings
+      </a>
       <mat-toolbar>Card Sets</mat-toolbar>
-      <a mat-list-item href="#">Standard</a>
-      <a mat-list-item href="#">TShirt</a>
-      <a mat-list-item href="#">Fibonacci</a>
+      <mat-list role="list">
+        <mat-list-item (click)="setCardList(['1/2','1','2','3','5','8','13','20','40','100', '?', 'ESC', '∞']); drawer.toggle();">Standard</mat-list-item>
+        <mat-list-item (click)="setCardList(['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL', '?']); drawer.toggle()">TShirt</mat-list-item>
+        <mat-list-item (click)="setCardList(['0', '1/2', '1', '2', '3', '5', '8', '13', '21', '34', '?', 'ESC']); drawer.toggle()">Fibonacci</mat-list-item>
+      </mat-list>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary">
-      <button
-        type="button"
-        aria-label="Toggle sidenav"
-        mat-icon-button
-        (click)="drawer.toggle()">
+      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()">
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>Cards Against Agility</span>
-      <span style="flex: 1 1 auto"></span>
-      <button onclick="installPwa()">
-        Install
-      </button>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>

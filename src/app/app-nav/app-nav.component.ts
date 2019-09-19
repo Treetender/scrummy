@@ -3,6 +3,7 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 import { PwaService } from '../pwa.service';
+import { SettingsService } from '../settings.service';
 
 @Component({
   selector: 'app-app-nav',
@@ -21,6 +22,10 @@ export class AppNavComponent {
       this.pwaService.promptEvent.prompt();
     }
 
-  constructor(private breakpointObserver: BreakpointObserver, private pwaService: PwaService) {}
+  constructor(private breakpointObserver: BreakpointObserver, private pwaService: PwaService, private settingsService: SettingsService) {}
+
+  setCardList(cards: string[]) {
+    this.settingsService.setCardList(cards);
+  }
 
 }
