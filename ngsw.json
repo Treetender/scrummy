@@ -1,21 +1,21 @@
 {
   "configVersion": 1,
-  "timestamp": 1568911164270,
-  "index": "https://treetender.github.io/scrummy/index.html",
+  "timestamp": 1568953919635,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://treetender.github.io/scrummy/favicon.ico",
-        "https://treetender.github.io/scrummy/index.html",
-        "https://treetender.github.io/scrummy/main.1d3b9a8e83fdf6bcc7cb.js",
-        "https://treetender.github.io/scrummy/manifest.webmanifest",
-        "https://treetender.github.io/scrummy/polyfills-es5.097f5b76a37bc386f2e9.js",
-        "https://treetender.github.io/scrummy/polyfills.4a68f20554f3173876ae.js",
-        "https://treetender.github.io/scrummy/runtime.8fbc2fd6f12647d93e24.js",
-        "https://treetender.github.io/scrummy/styles.3f820a5f682fe37952c5.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.1d3b9a8e83fdf6bcc7cb.js",
+        "/manifest.webmanifest",
+        "/polyfills-es5.2b056cd82eb4eec3ea12.js",
+        "/polyfills.4a68f20554f3173876ae.js",
+        "/runtime.8fbc2fd6f12647d93e24.js",
+        "/styles.3f820a5f682fe37952c5.css"
       ],
       "patterns": []
     },
@@ -24,36 +24,36 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://treetender.github.io/scrummy/assets/icons/icon-128x128.png",
-        "https://treetender.github.io/scrummy/assets/icons/icon-144x144.png",
-        "https://treetender.github.io/scrummy/assets/icons/icon-152x152.png",
-        "https://treetender.github.io/scrummy/assets/icons/icon-192x192.png",
-        "https://treetender.github.io/scrummy/assets/icons/icon-384x384.png",
-        "https://treetender.github.io/scrummy/assets/icons/icon-512x512.png",
-        "https://treetender.github.io/scrummy/assets/icons/icon-72x72.png",
-        "https://treetender.github.io/scrummy/assets/icons/icon-96x96.png"
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://treetender.github.io/scrummy/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://treetender.github.io/scrummy/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://treetender.github.io/scrummy/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://treetender.github.io/scrummy/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://treetender.github.io/scrummy/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://treetender.github.io/scrummy/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://treetender.github.io/scrummy/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://treetender.github.io/scrummy/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://treetender.github.io/scrummy/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://treetender.github.io/scrummy/index.html": "5ccd92c234b223037aaa0674fb150da4e98f980c",
-    "https://treetender.github.io/scrummy/main.1d3b9a8e83fdf6bcc7cb.js": "95b6fd3fdffb359c5b9a4e82e0e8ce23694bcf0d",
-    "https://treetender.github.io/scrummy/manifest.webmanifest": "f2e9f2b0f935553ba21fc791d39383d175660d05",
-    "https://treetender.github.io/scrummy/polyfills-es5.097f5b76a37bc386f2e9.js": "4eb41106f40d528a37068e0ff6ec78e603ec1c76",
-    "https://treetender.github.io/scrummy/polyfills.4a68f20554f3173876ae.js": "0e8aa457bfd12723e7e0c138a8117568f3101c16",
-    "https://treetender.github.io/scrummy/runtime.8fbc2fd6f12647d93e24.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://treetender.github.io/scrummy/styles.3f820a5f682fe37952c5.css": "43b7c704ae463dabcb9c9577ea90d1ab2d23c222"
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "2b9e3f9db35b826ea0083e77099d89ecf9a69b97",
+    "/main.1d3b9a8e83fdf6bcc7cb.js": "95b6fd3fdffb359c5b9a4e82e0e8ce23694bcf0d",
+    "/manifest.webmanifest": "fc2952429fb731c273f10e99c75612c3705eda21",
+    "/polyfills-es5.2b056cd82eb4eec3ea12.js": "4eb41106f40d528a37068e0ff6ec78e603ec1c76",
+    "/polyfills.4a68f20554f3173876ae.js": "0e8aa457bfd12723e7e0c138a8117568f3101c16",
+    "/runtime.8fbc2fd6f12647d93e24.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.3f820a5f682fe37952c5.css": "43b7c704ae463dabcb9c9577ea90d1ab2d23c222"
   },
   "navigationUrls": [
     {
