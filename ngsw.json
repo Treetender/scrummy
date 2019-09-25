@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1569380341992,
+  "timestamp": 1569380444941,
   "index": "/scrummy/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,7 @@
       "urls": [
         "/scrummy/favicon.ico",
         "/scrummy/index.html",
-        "/scrummy/main.818a677b9a0da46a6179.js",
+        "/scrummy/main.1d3b9a8e83fdf6bcc7cb.js",
         "/scrummy/manifest.webmanifest",
         "/scrummy/polyfills-es5.2b056cd82eb4eec3ea12.js",
         "/scrummy/polyfills.4a68f20554f3173876ae.js",
@@ -47,8 +47,8 @@
     "/scrummy/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/scrummy/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/scrummy/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/scrummy/index.html": "6cfa6c0da1801d7c934e32ce638aff13de0c643b",
-    "/scrummy/main.818a677b9a0da46a6179.js": "55a631cd786dacfccac9d0d16bb350a3ba2ca09c",
+    "/scrummy/index.html": "f757c03dfba274dd40676ed2582d870d630a19c0",
+    "/scrummy/main.1d3b9a8e83fdf6bcc7cb.js": "95b6fd3fdffb359c5b9a4e82e0e8ce23694bcf0d",
     "/scrummy/manifest.webmanifest": "5054e63ea8f1cf7e02520205c79fdfff4853aab2",
     "/scrummy/polyfills-es5.2b056cd82eb4eec3ea12.js": "4eb41106f40d528a37068e0ff6ec78e603ec1c76",
     "/scrummy/polyfills.4a68f20554f3173876ae.js": "0e8aa457bfd12723e7e0c138a8117568f3101c16",
