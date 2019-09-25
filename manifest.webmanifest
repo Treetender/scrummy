@@ -2,7 +2,7 @@
   "name": "Cards Against Agility",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "minimal-ui",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [
